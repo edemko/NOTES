@@ -36,8 +36,7 @@ main() {
 
 ###### Global Variables ######
 
-
-here="$(realpath "$(dirname "${0}")")"
+here="$(realpath "$(dirname "$(readlink "${0}")")")"
 notesdir="$(dirname "$(dirname "$here")")"
 
 color=1

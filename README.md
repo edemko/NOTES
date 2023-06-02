@@ -8,5 +8,6 @@ Distribution and syncing will be done through github.
 
 ## Maintenance
 
-I've created a linter script stored under `META/scripts/lint.bash`.
+I've created a linter script `./lint.bash`.
 It checks various conventions that this repository should abide by.
+Run it before every commit!
